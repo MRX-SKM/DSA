@@ -17,6 +17,14 @@ int main(){
     for(int i : v){
        cout<< i << " ";
     }
+    v.pop_back(); //removing last element
+    cout<<"\nsize after pop_back = "<<v.size()<<endl;
+    for(int i : v){
+       cout<< i << " ";
+    }
+    cout<<v.front()<<endl; //first element
+    cout<<v.back()<<endl;  //last element
+    cout<<v.at(2)<<endl; //element at index 2
     
     
     return 0;
