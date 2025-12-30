@@ -12,6 +12,11 @@ int main(){
     }
     
     cout<<"size = "<<v.size()<<endl; //size of vector
+    v.push_back(6); //adding element at the end
+    cout<<"size after push_back = "<<v.size()<<endl;
+    for(int i : v){
+       cout<< i << " ";
+    }
     
     
     return 0;
