@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 int main(){
-    vector<int> v = {1,2,3,4,5};
+    vector<int> v = {1,3,5,7,9};
 
     // vector<int>v(5,0); //vector of size 5 with all values initialized to 0
     // loops in vectors
@@ -24,8 +24,6 @@ int main(){
     cout<<v.front()<<endl; //first element
     cout<<v.back()<<endl;  //last element
     cout<<v.at(2)<<endl; //element at index 2
-    
-    
     return 0;
 
 
